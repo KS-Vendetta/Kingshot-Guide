@@ -1,4 +1,5 @@
 
+<style> .btn { display: none !important; } </style>
 # 📢 Alliance Rank Structure
 # R5 – Alliance Leader
 Leads the alliance and makes major decisions.
