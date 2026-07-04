@@ -1,3 +1,4 @@
+<style> .btn { display: none !important; } </style>
 
 
 # 🐻 BEAR TRAP GUIDE 🐻
