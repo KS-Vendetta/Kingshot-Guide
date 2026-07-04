@@ -9,4 +9,5 @@ Experienced players who can lead rallies, support members, and help during event
 Active players who are learning, growing, and contributing to the alliance.
 # R1 – Recruits
 Members who are new or have been inactive for more than 2 days. Continued inactivity may result in removal to make room for active players.
+
 Let’s stay active, help each other grow, and keep strengthening the alliance together! 💪
