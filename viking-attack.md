@@ -87,10 +87,9 @@ Send your troops to reinforce alliance members instead of leaving them at home.
 📍 If you're unable to participate, send your reinforcements before going offline and **share your city coordinates in Alliance Chat** so members can reinforce your city.
 
 🚫 **Do NOT use a Shield.**
-Shielding prevents Vikings from attacking your city and reduces overall alliance points.
+Shield does not prevents Vikings from attacking your city and reduces overall alliance points.
 
-❤️ Do **not heal troops during battle** if it recalls your troops from reinforcements.
-Instead, heal after **Wave 9** before the HQ battle or after the event if possible.
+❤️ Do **not heal troops during battle** Instead, heal after **Wave 9** before the HQ battle or after the event if possible.
 
 🤝 Form small support groups (pairs or groups of six) to reinforce one another consistently throughout the event.
 
