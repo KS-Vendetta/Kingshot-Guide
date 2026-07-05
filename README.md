@@ -18,3 +18,5 @@
 ## ⚔️ Swrdland Showdown
 * [Click here to read the current Swordland Showdown](swordland-showdown.md)
 
+## 📦 Alliance Mobilization
+* [Click here to read the current Alliance Mobilization](alliance-mobilization.md)
