@@ -29,3 +29,7 @@ Everything you need to master Kingshot—Bear Trap, Events, Hero Builds, Battle 
 
 ## 🏆 Alliance Championship
 * [Click here to read the current Alliance Championship](alliance-championship.md)
+
+
+## 🦸 Hero Guide (Generation 1)
+* [Click here to read the current Hero Guide Gen 1](gen-1-heroes.md)
