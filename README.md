@@ -13,8 +13,8 @@ Everything you need to master Kingshot—Bear Trap, Events, Hero Builds, Battle 
 <details>
   <summary><b>⚖️ Alliance Rules & Notices</b></summary>
   
-  * [Read the current VEN Notices and Rules](ven-notices.md)
-  * [Alliance Rank Structure](Rank-structure.md)
+  * [Read the current VEN Notices and Rules](ven-notices.html)
+  * [Alliance Rank Structure](Rank-structure.html)
   
 </details>
 
