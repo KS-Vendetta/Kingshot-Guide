@@ -6,30 +6,44 @@ Everything you need to master Kingshot—Bear Trap, Events, Hero Builds, Battle 
 
 <p style="color: #ffcc00; font-weight: bold; text-align: center;">🚧 Work in Progress: New guides, strategies, and updates will be added regularly.</p>
 
-## ⚖️ Alliance Rules
-*  [Click here to read the current VEN Notices and Rules](ven-notices.md)
+---
 
-## 👑 Alliance Rank Structure
-* [Click here to read the current Rank Structure](Rank-structure.md)
+## 📚 VEN Alliance Categories
 
-## 🐻 BEAR TRAP GUIDE 🐻
-* [Click here to read the current Bear Trap Guide](bear-trap.md)
+<details>
+  <summary><b>⚖️ Alliance Rules & Notices</b></summary>
+  
+  * [Read the current VEN Notices and Rules](ven-notices.md)
+  * [Alliance Rank Structure](Rank-structure.md)
+  
+</details>
 
-## ⚔️ Alliance Battles
-* [Click here to read the current Alliance Battles](alliance-battles.md)
+<details>
+  <summary><b>📅 Event Guides & Strategy</b></summary>
+  
+  * [Bear Trap Guide](bear-trap.md)
+  * [Swordland Showdown Blueprint](swordland-guide.md)
+  * [Alliance Battles & Outposts](outpost-rules.md)
+  
+</details>
 
-## 🛡️ Viking Attack
-* [Click here to read the current Viking Attack](viking-attack.md)
+<details>
+  <summary><b>📺 YouTube Reference Links</b></summary>
+  
+  * [Understanding Gen 1 Heroes & Gear Allocation](https://youtu.be/Ofe-_8YEYRc?si=JpXFMelzt48qmPUb)
+  * [Swordland Showdown Strategy Video](https://youtu.be/_KffCiPI_HM?si=cznN5Ao-_EHiYIs0)
+  
+</details>
 
-## ⚔️ Swordland Showdown
-* [Click here to read the current Swordland Showdown](swordland-showdown.md)
+<details>
+  <summary><b>🧮 Helping Links & Tools</b></summary>
+  
+  * [Kingshot Optimizer](#) *(https://kingshotoptimizer.com)*
+  * [Kingshot Calculator](#) *(https://kingshotcalculator.com)*
+  
+</details>
 
-## 📦 Alliance Mobilization
-* [Click here to read the current Alliance Mobilization](alliance-mobilization.md)
+---
 
-## 🏆 Alliance Championship
-* [Click here to read the current Alliance Championship](alliance-championship.md)
-
-
-## 🦸 Hero Guide (Generation 1)
-* [Click here to read the current Hero Guide Gen 1](gen-1-heroes.md)
+## 💬 Community
+* [**Click Here to Join the VEN Discord Server**](https://discord.gg/DR6VCUByp)
