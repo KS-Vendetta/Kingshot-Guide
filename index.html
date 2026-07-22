@@ -3,17 +3,17 @@
 
 <head>
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>VEN Alliance Hub</title>
+    <title>VEN Alliance Hub</title>
 
-<link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Orbitron:wght@600;700&display=swap" rel="stylesheet">
 
-<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 
 </head>
 
@@ -21,39 +21,81 @@
 
 <header>
 
-<div class="logo">
-
-🛡 VEN Alliance Hub
-
-</div>
-
 <nav>
 
-<a href="#">Home</a>
+<div class="logo">
+VEN Alliance Hub
+</div>
+
+<div class="nav-links">
+
+<a href="index.html">🏠 Home</a>
 
 <div class="dropdown">
 
-    <a href="#">Alliance ▾</a>
+<a href="#">Alliance ▾</a>
 
-    <div class="dropdown-content">
+<div class="dropdown-content">
 
-        <a href="ven-notices.html">📢 Notices</a>
+<div class="dropdown-menu">
 
-        <a href="rank-structure.html">🏅 Rank Structure</a>
+<a href="ven-notices.html">📢 Notices</a>
 
-    </div>
+<a href="rank-structure.html">🏅 Rank Structure</a>
 
 </div>
 
-<a href="#">Events</a>
+</div>
 
-<a href="#">Heroes</a>
+</div>
 
-<a href="#">Tools</a>
+<div class="dropdown">
 
-<a href="#">Videos</a>
+<a href="#">Events ▾</a>
 
-<a href="#">Community</a>
+<div class="dropdown-content">
+
+<div class="dropdown-menu">
+
+<a href="bear-trap.html">🐻 Bear Trap</a>
+
+<a href="viking-attack.html">⚔ Viking Attack</a>
+
+<a href="swordland-showdown.html">🗡 Swordland</a>
+
+<a href="alliance-mobilization.html">📋 Mobilization</a>
+
+<a href="alliance-championship.html">🏆 Championship</a>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="dropdown">
+
+<a href="#">Heroes ▾</a>
+
+<div class="dropdown-content">
+
+<div class="dropdown-menu">
+
+<a href="gen-1-heroes.html">🦸 Gen 1 Heroes</a>
+
+</div>
+
+</div>
+
+</div>
+
+<a href="#">🛠 Tools</a>
+
+<a href="#">📺 Videos</a>
+
+<a href="#">🌐 Community</a>
+
+</div>
 
 </nav>
 
@@ -65,17 +107,100 @@
 
 <p>
 
-Your complete Kingshot knowledge base.
+Your one-stop destination for alliance guides, event strategies, hero builds,
+and everything needed to help VEN dominate the kingdom.
 
 </p>
 
-<a href="#categories" class="button">
+<button onclick="document.getElementById('categories').scrollIntoView({behavior:'smooth'})">
 
 Explore Guides
 
-</a>
+</button>
 
 </section>
+
+<section class="categories" id="categories">
+
+<div class="card">
+
+<h3>📜 Alliance</h3>
+
+<p>
+
+Alliance notices, rules, rank structure and important announcements.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>⚔ Events</h3>
+
+<p>
+
+Strategies for Bear Trap, Vikings, Swordland and more.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>🦸 Heroes</h3>
+
+<p>
+
+Hero guides, formations, gear allocation and future generations.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>🛠 Tools</h3>
+
+<p>
+
+Gift codes, calculators and useful alliance resources.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>📺 Videos</h3>
+
+<p>
+
+Helpful YouTube videos and learning resources.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>🌐 Community</h3>
+
+<p>
+
+Discord, recruitment and useful community links.
+
+</p>
+
+</div>
+
+</section>
+
+<footer>
+
+VEN Alliance Hub © 2026
+
+</footer>
 
 <script src="script.js"></script>
 
