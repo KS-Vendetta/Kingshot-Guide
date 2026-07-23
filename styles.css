@@ -355,3 +355,72 @@ footer {
     }
 
 }
+/* ===========================
+   CONTENT PAGES
+=========================== */
+
+.content-page {
+    max-width: 950px;
+    margin: 50px auto;
+    padding: 0 30px;
+    line-height: 1.8;
+}
+
+.content-page h1 {
+    font-family: 'Orbitron', sans-serif;
+    color: #f4c542;
+    margin-bottom: 25px;
+    border-bottom: 2px solid #f4c542;
+    padding-bottom: 15px;
+}
+
+.content-page h2 {
+    margin-top: 40px;
+    margin-bottom: 15px;
+    color: #f4c542;
+}
+
+.content-page h3 {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.content-page p {
+    margin-bottom: 18px;
+}
+
+.content-page ul {
+    margin-left: 25px;
+    margin-bottom: 25px;
+}
+
+.content-page li {
+    margin-bottom: 10px;
+}
+
+.content-page table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 30px 0;
+}
+
+.content-page th,
+.content-page td {
+    border: 1px solid #444;
+    padding: 12px;
+    text-align: left;
+}
+
+.content-page th {
+    background: #1d2740;
+    color: #f4c542;
+}
+
+.content-page blockquote {
+    margin-top: 40px;
+    padding: 20px;
+    border-left: 4px solid #f4c542;
+    background: rgba(255,255,255,0.05);
+    font-style: italic;
+}
