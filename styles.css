@@ -1,5 +1,5 @@
 /* ==================================================
-   VEN Alliance Hub - Version 2
+   VEN Alliance Hub - Version 3
    ================================================== */
 
 /* ---------- Reset ---------- */
@@ -29,6 +29,7 @@ header {
     z-index: 1000;
     background: #111827;
     border-bottom: 2px solid #d4af37;
+    box-shadow: 0 6px 18px rgba(0,0,0,.25);
 }
 
 /* ---------- Navigation ---------- */
@@ -50,13 +51,18 @@ nav {
     color: #d4af37;
 }
 
+.logo a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .nav-links {
     display: flex;
     align-items: center;
     gap: 8px;
 }
 
-/* ---------- Nav Links ---------- */
+/* ---------- Navigation Links ---------- */
 
 .nav-links a,
 .dropdown > a {
@@ -70,10 +76,9 @@ nav {
 
     border-radius: 8px;
 
-    transition: .25s ease;
-
     font-weight: 600;
 
+    transition: .25s ease;
 }
 
 .nav-links a:hover,
@@ -92,8 +97,6 @@ nav {
 
 }
 
-/* keeps the hover alive */
-
 .dropdown-content {
 
     position: absolute;
@@ -102,15 +105,13 @@ nav {
 
     left: 0;
 
-    padding-top: 8px;
-
     display: none;
 
     min-width: 240px;
 
-}
+    padding-top: 8px;
 
-/* actual dropdown box */
+}
 
 .dropdown-menu {
 
@@ -131,12 +132,6 @@ nav {
     display: block;
 
     padding: 14px 18px;
-
-    color: white;
-
-    text-decoration: none;
-
-    transition: .25s ease;
 
 }
 
@@ -160,7 +155,7 @@ nav {
 
     text-align: center;
 
-    padding: 100px 20px;
+    padding: 90px 20px 70px;
 
 }
 
@@ -176,7 +171,7 @@ nav {
 
 .hero p {
 
-    max-width: 700px;
+    max-width: 720px;
 
     margin: auto;
 
@@ -218,25 +213,55 @@ nav {
 
 }
 
-/* ---------- Cards ---------- */
+/* ==================================================
+   HOMEPAGE SECTIONS
+   ================================================== */
 
-.categories {
+.home-section {
 
     max-width: 1200px;
 
-    margin: auto;
+    margin: 60px auto;
 
-    padding: 20px;
+    padding: 0 20px;
+
+}
+
+.section-title {
+
+    font-family: "Orbitron", sans-serif;
+
+    font-size: 30px;
+
+    color: #d4af37;
+
+    margin-bottom: 25px;
+
+    border-left: 5px solid #d4af37;
+
+    padding-left: 15px;
+
+}
+
+.card-grid {
 
     display: grid;
 
-    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
 
     gap: 25px;
 
 }
 
+/* ---------- Cards ---------- */
+
 .card {
+
+    display: block;
+
+    text-decoration: none;
+
+    color: inherit;
 
     background: #182234;
 
@@ -244,11 +269,9 @@ nav {
 
     border-radius: 16px;
 
-    padding: 35px;
+    padding: 28px;
 
     transition: .3s ease;
-
-    cursor: pointer;
 
 }
 
@@ -266,7 +289,7 @@ nav {
 
     color: #d4af37;
 
-    margin-bottom: 15px;
+    margin-bottom: 12px;
 
 }
 
@@ -276,7 +299,283 @@ nav {
 
 }
 
-/* ---------- Footer ---------- */
+/* ---------- Status Badges ---------- */
+
+.badge {
+
+    display: inline-block;
+
+    padding: 5px 10px;
+
+    border-radius: 999px;
+
+    font-size: 12px;
+
+    font-weight: 700;
+
+    margin-bottom: 15px;
+
+}
+
+.live {
+
+    background: #14532d;
+
+    color: #bbf7d0;
+
+}
+
+.upcoming {
+
+    background: #78350f;
+
+    color: #fde68a;
+
+}
+
+.new {
+
+    background: #1e3a8a;
+
+    color: #bfdbfe;
+
+}
+
+/* ---------- Recently Added ---------- */
+
+.recent-list {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 12px;
+
+}
+
+.recent-list a {
+
+    text-decoration: none;
+
+    color: white;
+
+    background: #182234;
+
+    border: 1px solid rgba(212,175,55,.2);
+
+    border-radius: 10px;
+
+    padding: 16px 20px;
+
+    transition: .25s ease;
+
+}
+
+.recent-list a:hover {
+
+    background: #d4af37;
+
+    color: #111827;
+
+}
+
+/* ---------- Gift Card ---------- */
+
+.gift-card {
+
+    text-align: center;
+
+}
+
+.gift-card h3 {
+
+    font-size: 28px;
+
+}
+
+.gift-card p {
+
+    margin-top: 15px;
+
+    color: #cbd5e1;
+
+}
+/* ==================================================
+   CONTENT PAGES
+   ================================================== */
+
+.content-page {
+
+    max-width: 1100px;
+
+    margin: 50px auto;
+
+    padding: 0 30px 60px;
+
+    line-height: 1.8;
+
+}
+
+.content-page h1 {
+
+    font-family: "Orbitron", sans-serif;
+
+    color: #d4af37;
+
+    margin-bottom: 25px;
+
+    border-bottom: 2px solid #d4af37;
+
+    padding-bottom: 15px;
+
+}
+
+.content-page h2 {
+
+    margin-top: 55px;
+
+    margin-bottom: 15px;
+
+    color: #d4af37;
+
+}
+
+.content-page h3 {
+
+    margin-top: 25px;
+
+    margin-bottom: 10px;
+
+    color: #ffffff;
+
+}
+
+.content-page p {
+
+    margin-bottom: 18px;
+
+}
+
+.content-page ul {
+
+    margin-left: 25px;
+
+    margin-bottom: 25px;
+
+}
+
+.content-page li {
+
+    margin-bottom: 10px;
+
+}
+
+/* ---------- Tables ---------- */
+
+.content-page table {
+
+    width: 100%;
+
+    border-collapse: collapse;
+
+    margin: 30px 0;
+
+}
+
+.content-page th,
+.content-page td {
+
+    border: 1px solid #444;
+
+    padding: 12px;
+
+    text-align: left;
+
+}
+
+.content-page th {
+
+    background: #1d2740;
+
+    color: #d4af37;
+
+}
+
+.content-page tr:nth-child(even) {
+
+    background: rgba(255,255,255,.03);
+
+}
+
+.content-page tr:hover {
+
+    background: rgba(212,175,55,.08);
+
+}
+
+/* ---------- Blockquotes ---------- */
+
+.content-page blockquote {
+
+    margin-top: 40px;
+
+    padding: 20px;
+
+    border-left: 4px solid #d4af37;
+
+    background: rgba(255,255,255,.05);
+
+    font-style: italic;
+
+}
+
+/* ---------- Images ---------- */
+
+.content-page img {
+
+    max-width: 100%;
+
+    height: auto;
+
+    border-radius: 12px;
+
+    margin: 20px 0;
+
+    border: 1px solid rgba(212,175,55,.2);
+
+}
+
+/* ---------- Code ---------- */
+
+code {
+
+    background: rgba(255,255,255,.08);
+
+    padding: 2px 6px;
+
+    border-radius: 4px;
+
+    font-size: .95em;
+
+}
+
+pre {
+
+    background: #111827;
+
+    padding: 18px;
+
+    border-radius: 12px;
+
+    overflow-x: auto;
+
+    margin: 20px 0;
+
+}
+
+/* ==================================================
+   FOOTER
+   ================================================== */
 
 footer {
 
@@ -294,9 +593,41 @@ footer {
 
 }
 
-/* ---------- Responsive ---------- */
+/* ==================================================
+   SCROLLBAR
+   ================================================== */
 
-@media (max-width:900px) {
+::-webkit-scrollbar {
+
+    width: 10px;
+
+}
+
+::-webkit-scrollbar-track {
+
+    background: #0f172a;
+
+}
+
+::-webkit-scrollbar-thumb {
+
+    background: #d4af37;
+
+    border-radius: 20px;
+
+}
+
+::-webkit-scrollbar-thumb:hover {
+
+    background: #e7c766;
+
+}
+
+/* ==================================================
+   RESPONSIVE
+   ================================================== */
+
+@media (max-width: 900px) {
 
     nav {
 
@@ -322,7 +653,7 @@ footer {
 
     .hero h1 {
 
-        font-size: 38px;
+        font-size: 40px;
 
     }
 
@@ -332,9 +663,15 @@ footer {
 
     }
 
+    .section-title {
+
+        font-size: 24px;
+
+    }
+
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
 
     .dropdown-content {
 
@@ -354,87 +691,52 @@ footer {
 
     }
 
-}
-/* ===========================
-   CONTENT PAGES
-=========================== */
+    .card-grid {
 
-.content-page {
-    max-width: 1100px;
-    margin: 50px auto;
-    padding: 0 30px;
-    line-height: 1.8;
-}
+        grid-template-columns: 1fr;
 
-.content-page h1 {
-    font-family: 'Orbitron', sans-serif;
-    color: #f4c542;
-    margin-bottom: 25px;
-    border-bottom: 2px solid #f4c542;
-    padding-bottom: 15px;
-}
+    }
 
-.content-page h2 {
-    margin-top: 55px;
-    margin-bottom: 15px;
-    color: #f4c542;
+    .content-page {
+
+        padding: 0 20px 50px;
+
+    }
+
+    .content-page table {
+
+        display: block;
+
+        overflow-x: auto;
+
+    }
+
 }
 
-.content-page h3 {
-    margin-top: 25px;
-    margin-bottom: 10px;
-    color: white;
-}
+@media (max-width: 480px) {
 
-.content-page p {
-    margin-bottom: 18px;
-}
+    .hero h1 {
 
-.content-page ul {
-    margin-left: 25px;
-    margin-bottom: 25px;
-}
+        font-size: 32px;
 
-.content-page li {
-    margin-bottom: 10px;
-}
+    }
 
-.content-page table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 30px 0;
-}
+    .hero button {
 
-.content-page th,
-.content-page td {
-    border: 1px solid #444;
-    padding: 12px;
-    text-align: left;
-}
+        width: 100%;
 
-.content-page th {
-    background: #1d2740;
-    color: #f4c542;
-}
-.content-page tr:nth-child(even) {
-    background: rgba(255,255,255,0.03);
-}
+    }
 
-.content-page tr:hover {
-    background: rgba(244,197,66,0.08);
-}
-.content-page blockquote {
-    margin-top: 40px;
-    padding: 20px;
-    border-left: 4px solid #f4c542;
-    background: rgba(255,255,255,0.05);
-    font-style: italic;
-}
-.content-page {
-    padding-bottom: 60px;
-}
-.card{
-    display:block;
-    text-decoration:none;
-    color:inherit;
+    .section-title {
+
+        font-size: 22px;
+
+    }
+
+    .card {
+
+        padding: 22px;
+
+    }
+
 }
